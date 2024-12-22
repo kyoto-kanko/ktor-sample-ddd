@@ -30,6 +30,7 @@ dependencies {
     implementation(libs.ktor.server.config.yaml)
     testImplementation(libs.ktor.server.test.host)
     testImplementation(libs.kotlin.test.junit)
+    testImplementation(libs.coroutines)
     implementation(libs.arrow.core)
     implementation(libs.arrow.fx.coroutines)
 }
